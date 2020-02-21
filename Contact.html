@@ -13,15 +13,77 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html"
+          ><h2>Matthew Leonard</h2></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse bg-primary"
+          id="navbarSupportedContent"
+        >
+          <!-- changed mr to ml to put links on the right -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item bg-primary active">
+              <a class="nav-link" href="Contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-
-
-
-
-
-
+    <!-- main content -->
+    <div class="container main-content mt-3">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Contact</h1>
+          <hr />
+          <p class="lead">
+            <form>
+              <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input type="name" class="form-control" id="nameInput" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="emailInput">Email address</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+              </div>
+            
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-dark text-center text-light pt-3">
+      <div class="container">
+        <span class="text-white">Copyright</span>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
