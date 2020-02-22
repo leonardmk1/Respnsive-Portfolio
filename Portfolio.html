@@ -13,15 +13,95 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html"
+          ><h2>Matthew Leonard</h2></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse bg-primary"
+          id="navbarSupportedContent"
+        >
+          <!-- changed mr to ml to put links on the right -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item bg-primary active">
+              <a class="nav-link" href="Portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-
-
-
-
-
-
+    <!-- main content -->
+    <div class="container main-content mt-3">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Portfolio</h1>
+          <hr />
+          <p class="lead">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 pr-5">
+                  <img src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="trees" width="275" height="250">
+                  <div class="img-title">
+                    <h3 class="display-5">Project 1</h3>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 pr-5">
+                  <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="doorway" width="275" height="250">
+                  <div class="img-title">
+                    <h3 class="display-5">Project 2</h3>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 pr-5">
+                  <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="bulb" width="275" height="250">
+                  <div class="img-title">
+                    <h3 class="display-5">Project 3</h3>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 pr-5 pt-5">
+                  <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="books" width="275" height="250">
+                  <div class="img-title">
+                    <h3 class="display-5">Project 4</h3>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 pr-5 pt-5">
+                  <img src="https://images.unsplash.com/photo-1551009265-65185ba175d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="building" width="275" height="250">
+                  <div class="img-title">
+                    <h3 class="display-5">Project 5</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-dark text-center text-light pt-3">
+      <div class="container">
+        <span class="text-white">Copyright</span>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
