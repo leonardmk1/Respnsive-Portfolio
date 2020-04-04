@@ -9,5 +9,21 @@
     text-align: center;
     bottom: 90px;
     position: relative;
-    
   }
+   
+    #me {
+      width: 100% !important;
+    }
+
+  @media (min-width: 768px) { 
+    #me {
+      width: 50% !important;
+    }
+   }
+ 
+   @media (min-width: 992px) { 
+    #me {
+      width: 25% !important;
+  }
+  }
+
